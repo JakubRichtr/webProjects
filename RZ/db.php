@@ -1,5 +1,5 @@
 <?php
-$dbname = "richtja";
-$user = "richtja";
-$pass = "aaaAAA111";
+$dbname = "";
+$user = "";
+$pass = "";
 ?>
