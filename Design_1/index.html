@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css">
+    <script src="../node_modules/animejs/lib/anime.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="../node_modules/waypoints/lib/jquery.waypoints.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="showcase">
+    <div class="anim">
+        <div class="h1-back">
+            <h1>Welcome</h1>
+        </div>
+        <svg class="wave-top" width="100" viewBox="0 0 1200 250">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#0099FF"/>
+        </svg>
+    </div>
+    <div class="pls">
+        <div class="showcase-label" id="showcase-label" onclick="location.href='#parent'">
+            Click me
+        </div>
+    </div>
+
+    <div class="expend">
+        <img src="assets/expand.svg" class="expend-img" onclick="location.href='#parent'" alt="">
+    </div>
+
+</div>
+
+
+
+
+<div class="parent" id="parent">
+    <div class="cont-up">
+
+        <div>
+            <nav class="navigate">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#projects">Projects</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="cont-mid" id="about">
+        <!------------BOX-1-------------->
+
+        <div class="text left">
+            <h2>About</h2>
+            <ul>
+
+            </ul>
+        </div>
+        <span class="img right" id="about-img">
+            <img src="assets/face_black_24dp.svg" alt="">
+            </span>
+
+        <!------------------------------->
+    </div>
+    <div class="cont-mid" id="contact">
+        <!------------BOX-2-------------->
+
+        <div class="text right">
+            <h2 >Contact</h2>
+            <ul>
+
+            </ul>
+
+        </div>
+        <span class="img left" id="contact-img">
+                <img src="assets/contact_support_black_24dp.svg" alt="">
+            </span>
+
+        <!------------------------------->
+
+    </div>
+    <div class="cont-projects" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project left">
+            <h3 class="project-label">RZ značky</h3>
+            <div class="container">
+                <div class="image">
+                    <img onclick="" src="assets/Code.org_logo.svg.png"  class="img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="project right">
+            <h3 class="project-label">Forum</h3>
+            <div class="container">
+                <div class="image">
+                    <img onclick="" src="assets/Code.org_logo.svg.png" class="img" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <table>
+            <tr>
+                <th>Contact</th>
+                <th>Documents</th>
+            </tr>
+            <tr>
+                <td>test@gmail.com</td>
+                <td>Languages</td>
+            </tr>
+            <tr>
+                <td>+420 888 777 555</td>
+                <td>Engines</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
