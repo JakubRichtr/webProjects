@@ -1,0 +1,87 @@
+/* CSS Document */
+body{
+background-color:white;
+font: 15px Arial, sans-serif;
+}
+
+.upBox{
+    display:block;
+    background-color:lightblue;
+    width: 756px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.lowBox{
+    width: 750px;
+    display:block;
+    background-color:white;
+    border: lightblue 3px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom:20px;
+}
+
+h1{
+    display:inline;
+    background: white;
+    color: lightblue;
+    border: #faf9b4 3px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+.inputs{
+    margin-top: 20px;
+}
+input{
+    transition: 0.5s;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+    height: 25px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #faf9b4;
+    border-bottom: 3px solid black;
+}
+input:hover{
+    width: 82%;
+    transition: 0.5s;
+    height: 28px;
+    font-size: 18px;
+}
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color:lightblue;
+    color: #faf9b4;
+    border: 1px solid #faf9b4;
+    border-radius: 20px;
+    cursor:pointer;
+    font:bold;
+}
+
+
+button:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+    color: black;
+    background-color: #faf9b4;
+}
+
+#error {
+    font-size: 20px;
+    display: block;
+    color: red;
+    margin: 5px 0 0 0;
+}
+
+
+
