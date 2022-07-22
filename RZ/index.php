@@ -61,17 +61,13 @@ $rz=new rz();
             <li>Správa svých vozidel na přehledném profilu.</li>
             <li>Správa custom SPZ.</li>
             <li>Informace o svém autě vyberete z předvolené databáze.</li>
-            <li style="margin-top:15px; list-style-type: none; padding-left: 28%;">~~~~PŘIPRAVUJE~~SE~~~~ </li>
-            <li>~ Select na custom PSZ při registraci auta. ~</li>
-            <li>~ "Policejní mód" -> vyhledávání pomocí PSZ (Admin). ~</li>
-            <li>~ Scrolling. ~</li>
+            <li>~ "Policejní mód" -> vyhledávání pomocí PSZ a jména (user: admin, heslo:admin). ~</li>
         </ul>
     </div>
 
     <div class="div3 ">
         <h2 class="h2-box2" >O nás...</h2>
         <ul>
-            <li>Nedobrovolně neziskový školní projekt.</li>
             <li>Design stránky, včetně animací, je dělaný bez frameworků a externích knihoven.</li>
             <li style="list-style-type: none; padding-left: 15px">➜ Mimo load animace, které jsou z <a href="https://animate.style/">knihovny</a>.</li>
             <li>Použitá databáze aut: <a href="https://car2db.com/">zde</a>.</li>
